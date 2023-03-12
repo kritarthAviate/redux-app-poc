@@ -1,4 +1,4 @@
-import * as type from "../types";
+import * as type from "src/redux/actions/types";
 
 export function getUsers(users) {
   return {

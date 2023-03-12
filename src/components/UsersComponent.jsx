@@ -1,13 +1,15 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { getUsers } from "../redux/actions/users";
-import Card from "./CardComponent";
+import { getUsers } from "src/redux/actions/users";
+import Card from "src/components/CardComponent";
+import UserSelector from "src/redux/selectors/selectedUserInfo";
 
 const UsersComponent = () => {
   const dispatch = useDispatch();
-  const users = useSelector((state) => state.users.users);
-  const loading = useSelector((state) => state.users.loading);
-  const error = useSelector((state) => state.users.error);
+  // const users = useSelector((state) => state.users.users);
+  // const loading = useSelector((state) => state.users.loading);
+  // const error = useSelector((state) => state.users.error);
+  const { users, loading, error } = useSelector(UserSelector);
 
   useEffect(() => {
     dispatch(getUsers());

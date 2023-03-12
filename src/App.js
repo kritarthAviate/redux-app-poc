@@ -1,5 +1,6 @@
-import "./App.css";
-import Users from "./components/UsersComponent";
+import Users from "src/components/UsersComponent";
+import "src/App.css";
+
 function App() {
   return (
     <div className="App">
