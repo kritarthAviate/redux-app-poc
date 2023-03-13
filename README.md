@@ -1,4 +1,4 @@
-# POC React-Redux-Saga app [[Link](https://task-planner-with-oauth.netlify.app/)]
+# POC React-Redux-Saga app [[Link](https://redux-app-production.up.railway.app/)]
 
 This app is POC to understand the concepts of redux and redux-sagas.
 
