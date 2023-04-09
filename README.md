@@ -7,8 +7,8 @@ This app is POC to understand the concepts of redux and redux-sagas.
 To run this project, install it locally using yarn:
 
 ```
-$ npm install
-$ npm start
+$ yarn install
+$ yarn start
 
 ```
 
